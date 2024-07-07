@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #00509d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+}
+
+nav {
+    display: inline; /* Inline display for navbar items */
+    
+}
+
+nav a {
+    color: #ccd5ae;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.important {
+    font-weight: bold;
+    color: red;
+}
+
+
+main {
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
